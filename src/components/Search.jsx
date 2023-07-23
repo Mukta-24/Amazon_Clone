@@ -106,7 +106,7 @@ const Search = () => {
       <div className="flex items-center h-10 bg-amazonclone-yellow rounded">
         <select
           onChange={(e) => setCategory(e.target.value)}
-          className="p-2 bg-gray-300 text-black border text-xs xl:text-sm"
+          className="p-2.5 rounded-l bg-gray-300 text-black border text-xs xl:text-sm"
         >
           <option>All</option>
           <option>Deals</option>
